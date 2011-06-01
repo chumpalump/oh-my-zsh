@@ -1,0 +1,33 @@
+* oh-my-zsh ideas
+** themes
+*** postgresql DBA mode
+** plugins
+*** emacs
+**** org notes
+**** org deadlines
+**** emacsclient tools
+*** vim
+**** remote tools
+*** postgresql
+**** set active DB
+**** DB activity
+**** molly switch
+*** django
+**** user management
+***** user clone
+***** user activity
+**** virtualenv
+*** wordpress
+**** wpush tools
+**** post to draft
+**** buddy press integration
+*** rabbitmq
+*** job queue
+*** google
+**** gtalk messages
+**** send to gdocs
+*** heirloom-mailx
+*** ebooks and docs
+*** sphinx
+*** ubuntu-one
+*** mercurial
