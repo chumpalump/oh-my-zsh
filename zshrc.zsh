@@ -21,7 +21,7 @@ export DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git python pip redis-cli debian npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -66,10 +66,7 @@ hash -d j=~/src/javascript
 hash -d m=~/src/mq
 hash -d o=~/src/orgfiles
 hash -d p=~/src/python
-hash -d pages=~/src/hg/pages-chumpalump/pages
-hash -d pub=~/public_html
 hash -d sh=~/src/commandline/shell-config
-hash -d sp=/usr/local/lib/python2.6/site-packages
 hash -d v=~/src/commandline/vim-conf
 hash -d w=~/src/wiki
 
