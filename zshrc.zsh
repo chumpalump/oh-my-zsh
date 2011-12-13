@@ -60,13 +60,13 @@ hash -d a=~/src/dataadmin
 hash -d c=~/src/commandline
 hash -d d=~/Desktop
 hash -d dj=~/src/django
-hash -d e=~/src/emacs/emacs-conf
+hash -d e=~/.emacs.d
 hash -d h=~/src/hg
 hash -d j=~/src/javascript
 hash -d m=~/src/mq
 hash -d o=~/src/orgfiles
 hash -d p=~/src/python
-hash -d sh=~/src/commandline/shell-config
+hash -d sh=~/src/commandline/oh-my-zsh
 hash -d v=~/src/commandline/vim-conf
 hash -d w=~/src/wiki
 
@@ -82,3 +82,6 @@ bindkey "[6~" history-beginning-search-forward    # page down
 
 bindkey "[1~" menu-complete               # home
 bindkey "[4~" accept-and-menu-complete    # end
+
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
