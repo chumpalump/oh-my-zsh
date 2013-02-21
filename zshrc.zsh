@@ -21,7 +21,7 @@ export DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git python pip redis-cli debian npm)
+plugins=(git python pip redis-cli npm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -55,20 +55,25 @@ alias -s tgz='tar tvfz'
 alias -s zip='unzip -v'
 alias -s sqlite=sqlite3
 alias -s log=multitail
+unalias gm
 
 hash -d a=~/src/dataadmin
 hash -d c=~/src/commandline
 hash -d d=~/Desktop
 hash -d dj=~/src/django
+hash -d dl=~/Downloads
+hash -d doc=~/Documents
 hash -d e=~/.emacs.d
-hash -d h=~/src/hg
 hash -d j=~/src/javascript
-hash -d m=~/src/mq
-hash -d o=~/src/orgfiles
 hash -d p=~/src/python
+hash -d prj=~/src/sysadmin/projects.unionshoptalk.com
+hash -d pub=~/public_html
+hash -d sa=~/src/sysadmin
 hash -d sh=~/src/commandline/oh-my-zsh
-hash -d v=~/src/commandline/vim-conf
+hash -d ust=~/src/sysadmin/unionshoptalk.com
+hash -d v=~/src/commandline/vim-vconf
 hash -d w=~/src/wiki
+hash -d wc=~/src/wiki/chumpyland-pelican
 
 setopt INTERACTIVE_COMMENTS
 setopt NO_BEEP
@@ -82,6 +87,3 @@ bindkey "[6~" history-beginning-search-forward    # page down
 
 bindkey "[1~" menu-complete               # home
 bindkey "[4~" accept-and-menu-complete    # end
-
-export WORKON_HOME=$HOME/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
